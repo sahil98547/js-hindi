@@ -56,19 +56,6 @@ let str3 = str1 + str2
 // console.log(+true);
 // console.log(+"");
 
-
-// yash asked this quesiton in comparison it will return after it will compare to c.
-let a = 2;
-let b = 2;
-let c = 2;
-
-if (a === b === c) {
-  console.log('equal');
-} else {
-  console.log('not equal');
-}
-
-
 let num1, num2, num3
 
 num1 = num2 = num3 = 2 + 2
