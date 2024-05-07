@@ -1,30 +1,5 @@
-// function init() {
-//   let name = "Mozilla";
-//   function displayName() {
-//     console.log(name);
-//   }
-//   displayName();
-// }
-// init();
-
-function outer() {
-  let username = "sahil";
-  // console.log("OUTER", secret);
-  function inner() {
-    let secret = "my123";
-    console.log("inner", username);
-  }
-  function innerTwo() {
-    console.log("innerTwo", username);
-    // console.log(secret);
-  }
-  inner();
-  innerTwo();
-}
-
-// outer();
-// console.log("TOO OUTER", username);
-
+// a closure gives you access to an outer function's scope from an inner function.
+// real life example in closure.html
 
 function makeFunc() {
   const name = "Mozilla";
