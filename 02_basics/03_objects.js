@@ -19,12 +19,6 @@ const JsUser = {
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
-// console.log(typeof JsUser[mySym])
-console.log(JsUser);
-
-JsUser.email = "sahil@chatgpt.com"
-// Object.freeze(JsUser)
-JsUser.email = "sahil@microsoft.com"
 // console.log(JsUser);
 
 JsUser.greeting = function () {
